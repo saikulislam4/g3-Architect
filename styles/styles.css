@@ -93,10 +93,11 @@
 /* banner section style start */
 .banner {
     padding: 50px 0;
-    height: 700px;
-    overflow: hidden;
     border-radius: 8px;
 
+}
+.banner img{
+    height: 100%;
 }
 
 .quick_features_container {
@@ -242,4 +243,7 @@
     text-align: center;
     margin-bottom: 200px;
     border-radius: 8px;
+}
+.hide{
+    display: none;
 }
